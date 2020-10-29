@@ -1,0 +1,177 @@
+#container{
+	width: 1050px;
+	/*border: 1px solid grey;*/
+	/*height: 100px;*/
+	margin: 0 auto; 
+	padding-bottom: 10px;
+
+}
+
+h1 a{
+	font-size: 50px;
+	color: violet;
+	text-decoration: none;
+	font-weight: 100px;
+}
+
+#brand{
+	float: left;
+}
+
+#searchbox{
+	height: 50px;
+	width: 250px;
+	float: right;
+	background: linear-gradient(orange,yellow);
+	padding: 20px 20px 0px 20px;
+}
+
+#header{
+	height: 100px;
+	/*margin-top: 20px;*/
+	padding: 10px 0px;
+}
+
+.text{
+	float: left;
+	width: 150px;
+	padding: 5px;
+	font-size: 15px;
+	color: violet;
+	background: white url(images/search.png) right center no-repeat;
+}
+
+.submit{
+	float: right;
+	padding: 5px;
+	color: white;
+	font-size: 15px;
+	font-weight: bold;
+	background-color: violet;
+}
+
+.clear{
+	clear: both;
+}
+
+ul{
+	list-style: none;
+}
+
+
+#menu ul li{
+
+	float: left;
+	/*height: 70px;*/
+	padding: 0 30px;
+	height: 30px;
+	border-right: 1px solid violet;
+}
+
+#menu{
+	height: 70px;
+	background: linear-gradient(yellow,orange);
+	padding: 7px 0px;
+}
+
+#menu ul li a{
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 17px;
+	color: violet;
+	line-height: 30px;
+	transition: font-size 1s linear;
+
+
+}
+
+#menu ul li:last-child{
+	border-right: none;
+}
+
+#menu ul li:hover,#menu ul li a.active{
+	font-size: 20px;
+	font-weight: bold;
+	color: blue;
+}
+
+#introduction{
+	/*height: 80px;*/
+	padding: 30px;
+	margin: 16px 0;
+	background: linear-gradient(orange,yellow);
+}
+
+#introduction h3{
+	color: red;
+	font-size: 30px;
+	font-weight: normal;
+}
+
+
+#introduction p{
+	font-size: 20px;
+	color: brown;
+	text-align: justify;
+}
+
+.sidebar{
+	height: 500px;
+	width: 450px;
+	border-radius: 20px;
+	border:1px solid red;
+	padding: 10px 30px;
+ 	
+}
+
+
+
+.sidebar ul li a{
+	text-decoration: none;
+	font-size: 20px;
+	color: blue;
+
+}
+
+.sidebar ul li a:hover{
+	text-decoration: none;
+	color: violet;
+	transition: 1s linear;
+	font-size: 40px;
+
+}
+#leftsidebar{
+	float: left;
+}
+
+#leftsidebar ul li{
+	padding-bottom: 6px;
+	list-style: url(images/arrow.png);
+	padding-left: 5px;
+}
+
+#rightsidebar{
+	float: right;
+}
+
+#rightsidebar ul li{
+	
+	list-style: url(images/mark.png);
+	padding: 17px 0 17px 70px;
+	
+}
+
+#footer{
+	margin-top:15px; 
+	height:40px;
+	margin-top: 20px;
+	padding:20px 20px; 
+	/*background: linear-gradient(orange,yellow);*/
+
+}
+
+body{
+	font-family: arial;
+}
+
+
